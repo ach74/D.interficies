@@ -59,7 +59,7 @@
 	height: 100px;
 	background-color: red;
 	border-top: 3px dashed #000; 
-	background-image: url(../img/pattern.jpg);
+	background-image: url("../img/pattern.jpg");
 
 }
 
