@@ -1,12 +1,16 @@
+
+body{
+	font-family: Verdana; 
+}
+
 #container{
 	width: 1000px;
 	margin: auto;
-	background-color: #c1c1c14a;
 	position: relative;
 }
 #head{
 	height: 120px;
-	background-color: lightblue;
+	background-color: #A6E9FD;
 	border-bottom: 3px dashed #000; 
 }
 
@@ -19,6 +23,9 @@
 	width: 50%;
 	height: 100%;
 	float: left;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-size: auto 120px;
 }
 
 #tHead{
@@ -32,46 +39,56 @@
 	margin-left: 40px;
 }
 
-
-.menu {
-	background-color: green;
-	width:auto;
-	float:left;
-	display: block;
-	height: 50px;
-}
-.menu a {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 10px;
-	text-decoration: none;
-	font-size :145%;
-	border-right: 1px solid #FFF; 
-}
-
 #cMenu{
 	width:100%;
 	height:50px;
 }
+#menu{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width:660px;
+	height: 100%;
+}
+
+li {
+	float: left;
+	border-right: 1.5px solid #fff;
+	width:100px;
+	height: 100%;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding-top: 14px;
+	text-decoration: none;
+	background-color: #4CAF50;
+	height: 100%;
+}
 
 #nav{
 	height: 100px;
-	background-color: red;
 	border-top: 3px dashed #000; 
 	background-image: url("../img/pattern.jpg");
-
 }
 
 #cImg{
 	height: 300px;
-	background-color: black;
+	background-image: url("../img/fotofrontal.jpg");
+	background-position: 0 -90px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 3px dashed #000; 
 }
 
 #cTabla{
 	height: 250px;
-	background-color:#B1B1B1;
+	background-color:#DCDCDC;
 	text-align: center;
+	border-top: 3px dashed #000; 
 }
 
 #tabla{
@@ -100,10 +117,46 @@ tr:nth-child(odd) {
 	background-color: #D3D3D3;
 }
 th {
-	background-color: lightblue;
+	background-color: #03FCFF;
 	border-bottom: 6px solid black;
 }
 
 #cLogos{
 	height: 300px;
+	text-align: center;
+	background-color: #fff;
+	border-top: 3px dashed #000; 
+	border-bottom: 3px dashed #000; 
+}
+
+.galleria{
+	width:25%;
+	height:100%;
+	float:left;
+}
+.img{
+	margin-top: 10px;
+	width: 100%;
+	height: 250px;
+	opacity: 0.7;
+
+}
+
+#cFooter{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+#iesFB{
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+
+#DWI{
+	bottom: 10px;
+	right: 15px;
+	position: absolute;
 }
